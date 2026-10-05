@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-square` will be documented in this file.
 
+## 1.0.1 - 2026-10-05
+
+- An empty `SQUARE_ENVIRONMENT`, `SQUARE_CURRENCY` or `SQUARE_TIMEOUT`, as `square:install` writes them, now falls back to the default; an empty environment used to throw instead of using sandbox.
+
 ## 1.0.0 - 2026-10-05
 
 First release, for Laravel 12 and 13 (PHP 8.2+) on the official `square/square` SDK (v45–v47).
