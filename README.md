@@ -11,7 +11,7 @@
   <a href="https://github.com/FLAIRUK/laravel-square/actions/workflows/tests.yml" target="_blank"><img src="https://img.shields.io/badge/Lint-%E2%9C%93-2EA043?style=flat&logo=githubactions&logoColor=white" alt="Lint"></a>&nbsp;
   <a href="https://github.com/FLAIRUK/laravel-square/actions/workflows/tests.yml" target="_blank"><img src="https://img.shields.io/badge/Tests-%E2%9C%93-2EA043?style=flat&logo=githubactions&logoColor=white" alt="Tests"></a>&nbsp;
   <a href="https://packagist.org/packages/flairuk/laravel-square" target="_blank"><img src="https://img.shields.io/packagist/dt/flairuk/laravel-square?style=flat&logo=packagist&logoColor=white&label=Downloads&color=F28D1A" alt="Downloads on Packagist"></a>&nbsp;
-  <a href="https://github.com/FLAIRUK/laravel-square/blob/master/LICENSE.md" target="_blank"><img src="https://img.shields.io/github/license/FLAIRUK/laravel-square?style=flat&label=License&color=3DA639" alt="MIT licence"></a>&nbsp;
+  <a href="https://github.com/FLAIRUK/laravel-square/blob/main/LICENSE.md" target="_blank"><img src="https://img.shields.io/github/license/FLAIRUK/laravel-square?style=flat&label=License&color=3DA639" alt="MIT licence"></a>&nbsp;
   <a href="https://developer.squareup.com/reference/square" target="_blank"><img src="https://img.shields.io/badge/Client-Square%20API-3E4348?style=flat" alt="Square API"></a>&nbsp;
   <br>&nbsp;
 </h2>
