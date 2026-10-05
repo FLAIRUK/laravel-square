@@ -43,6 +43,8 @@ composer require flairuk/laravel-square
 php artisan square:install
 ```
 
+Requires PHP 8.2 or later with Laravel 12, or PHP 8.3 or later with Laravel 13.
+
 `square:install` publishes `config/square.php` and adds any of these keys that are missing to `.env` and `.env.example`, empty. Fill them in from the [Developer Console](https://developer.squareup.com/apps):
 
 ```dotenv
