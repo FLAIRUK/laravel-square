@@ -18,7 +18,7 @@ return [
     'access_token' => env('SQUARE_ACCESS_TOKEN'),
 
     // "sandbox" or "production".
-    'environment' => env('SQUARE_ENVIRONMENT', 'sandbox'),
+    'environment' => env('SQUARE_ENVIRONMENT') ?: 'sandbox',
 
     // The Square-Version header (e.g. "2026-09-16"). Leave empty to use the
     // version the installed square/square SDK was generated for.
@@ -36,7 +36,7 @@ return [
 
     'location_id' => env('SQUARE_LOCATION_ID'),
 
-    'currency' => env('SQUARE_CURRENCY', 'USD'),
+    'currency' => env('SQUARE_CURRENCY') ?: 'USD',
 
     /*
     |--------------------------------------------------------------------------
@@ -102,7 +102,7 @@ return [
     |
     */
 
-    'timeout' => (int) env('SQUARE_TIMEOUT', 30),
+    'timeout' => (int) (env('SQUARE_TIMEOUT') ?: 30),
 
     'retries' => 2,
 
